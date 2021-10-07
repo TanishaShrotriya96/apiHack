@@ -14,7 +14,7 @@ client.on("ready", () => {
   
 //Listen to new messages on the server
 client.on("messageCreate", (msg) => {
-	if (msg.content.toLowerCase() === "i want to kill myself") {
+	if (msg.content.toLowerCase() === "I want to kill myself") {
 	  msg.channel.send({content:"Hey! Seems like you're having a hard time. You can call some helpline numbers - 800-273-8255"});
 	};
 	if(msg.content === "no" || msg.content === "i don't want to call anyone") {
